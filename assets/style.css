@@ -185,3 +185,58 @@
     clear: both;
     display: table;
   }
+  @media only screen and (max-width: 980px) {
+    .textbox{
+       width: 700px;
+    }
+    .textbox-portfolio{
+       width: 700px;
+    }
+    .message{
+       height: 100px;
+       width: 500px;
+       margin-left: 45px;
+    }
+    .greenline{
+       width: 700px;
+    }
+    .copyright{
+       width: 700px;
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .textbox{
+       width: 500px;
+    }
+    .greenline{
+       width: 500px;
+    }
+    .copyright{
+       width: 500px;
+    }
+    .textbox-portfolio{
+       width: 500px;
+    }
+    .message{
+       height: 100px;
+       width: 300px;
+       margin-left: 45px;
+    }
+    @media only screen and (max-width: 640px) {
+    .textbox{
+       width: 300px;
+    }
+    .greenline{
+       width: 300px;
+    }
+    .copyright{
+       width: 300px;
+    }
+    .textbox-portfolio{
+       width: 300px;
+    }
+    .message{
+       height: 100px;
+       width: 120px;
+       margin-left: 45px;
+    }
